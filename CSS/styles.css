@@ -1,0 +1,172 @@
+
+
+body {
+  Text-align: center;
+  font-family: "Poppins", Poppins, sans-serif;
+  Font-size: 100%;
+  background-color: hsl(0, 0%, 98%);
+  width: auto;
+
+}
+
+h1 {
+  font-weight: 100;
+}
+
+h3 {
+  position: relative;
+  top: -75px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+
+.top-container {
+  padding: 25px;
+}
+
+.bottom-container {
+  text-align: left;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 30px;
+}
+
+.left-box {
+  position: relative;
+  display: grid;
+  grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 9;
+  Height: 200px;
+  width: 300px;
+  border-style: solid;
+  border-color: hsl(180, 62%, 55%)
+    /*cyan*/
+    white white white;
+  box-shadow: 0px 6px 6px 4px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.supervisor {
+  position: relative;
+  display: block;
+  left: 225px;
+  bottom: -125px
+}
+
+.left-box-info {
+  position: relative;
+  top: -75px;
+  line-height: 2;
+}
+
+.top-box {
+  position: relative;
+  display: grid;
+  grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  Height: 200px;
+  width: 300px;
+  border-style: solid;
+  border-color: hsl(0, 78%, 62%)
+    /*red*/
+    white white white;
+  box-shadow: 0px 6px 6px 4px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.team-builder {
+  position: relative;
+  display: block;
+  left: 225px;
+  bottom: -125px
+}
+
+.top-box-info {
+  position: relative;
+  top: -75px;
+  line-height: 2;
+}
+
+.bottom-box {
+  position: relative;
+  display: grid;
+  grid-column: 2;
+  grid-row-start: 8;
+  grid-row-end: 4;
+  Height: 200px;
+  width: 300px;
+  border-style: solid;
+  border-color: hsl(34, 97%, 64%)
+    /*orange*/
+    white white white;
+  box-shadow: 0px 6px 6px 4px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.karma {
+  position: relative;
+  display: block;
+  left: 225px;
+  bottom: -125px
+}
+
+.bottom-box-info {
+  position: relative;
+  top: -75px;
+  line-height: 2;
+}
+
+.right-box {
+  position: relative;
+  display: grid;
+  grid-column: 3;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  Height: 200px;
+  width: 300px;
+  border-style: solid;
+  border-color: hsl(212, 86%, 64%)
+    /*blue*/
+    white white white;
+  box-shadow: 0px 6px 6px 4px hsl(229, 6%, 66%);
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.calculator {
+  position: relative;
+  display: block;
+  left: 225px;
+  bottom: -125px
+}
+
+.right-box-info {
+  position: relative;
+  top: -75px;
+  line-height: 2;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
